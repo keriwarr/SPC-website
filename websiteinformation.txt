@@ -1,0 +1,21 @@
+Main Headers:
+
+About us 
+	Mission Statement 
+	History 
+	Exec Team 
+	Collaborative Group Photos
+FAQ
+	How do I get involved?
+	When are the meetings? 
+	How much experience do I need to get involved?
+	What if I want to work on a specific technology? 
+	<more to be added>
+Past Projects
+	<insert here once information has been gotten>
+Get Involved!
+	<sign up link for newsletter, or maybe the spc slack> 
+Sponsors/Partners
+	Coffee n' Code
+	FEDS
+	Idk 
