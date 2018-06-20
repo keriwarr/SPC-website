@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> %}"
     <meta charset="UTF-8">
     <title>SPC Website</title>
   </head>
   <body>
-  	<img src="icon.jpg" alt="no_image.svg" width="100px">
+    {% load static %}
+    <img src="{% static "spc_main/Icon.jpg" %}" alt="{% static "spc_main/no_image.svg" %}" width="100px"/>
     <h1> UW Side Project Club </h1>
     <div id="tabs"> <ul>
     <li <button><a href="index.html">Home</a></button></li>
