@@ -1,0 +1,40 @@
+@import '_constants';
+
+body {
+	font-family: $primary-font;
+	margin: $body-margins;
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-column-gap: $grid-gap;
+	grid-row-gap: $grid-gap;
+	
+} 
+
+%grid-item {
+	font-size: $grid-font-size;
+}
+
+.grid-body-item {
+	@extend %grid-item;
+	border: $border-width solid black;
+	padding: 60px;
+}
+
+%title {
+	font-weight: $title-font-weight;
+	font-size: $title-font-size;
+}
+
+.grid-head-item {
+	@extend %title;
+	padding-bottom: 30px;
+	grid-column: 1 / 4;
+}
+
+
+
