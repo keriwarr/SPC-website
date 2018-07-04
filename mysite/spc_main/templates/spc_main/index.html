@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head> %}"
+  {% load static %}
+  <head>
     <meta charset="UTF-8">
     <title>SPC Website</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'spc_main/index.css' %}" />
   </head>
   <body>
-    {% load static %}
-    <img src="{% static "spc_main/Icon.jpg" %}" alt="{% static "spc_main/no_image.svg" %}" width="100px"/>
+    <img src="{% static "spc_main/icon.jpg" %}" alt="{% static "spc_main/no_image.svg" %}" width="500px" usemap="#SPCmap"/>
+    <map name="#SPCmap">
+      <area shape="circle" coords="395,134,24" href="about">
+      <area shape="circle" coords="426,188,24" href="faq">
+      <area shape="circle" coords="438,250,24" href="past_projects">
+      <area shape="circle" coords="426,315,24" href="get_involved">
+      <area shape="circle" coords="395,371,24" href="partners">
+    </map>
+
     <h1> UW Side Project Club </h1>
     <div id="tabs"> <ul>
-    <li <button><a href="index.html">Home</a></button></li>
-    <li <button><a href="Past_projects.html">Past Projects</a></button></li>
-    <li <button><a href="FAQ.html">FAQ</a></button></li>
-    <li <button><a href="About_Us.html">About Us</a></button></li>
-    <li <button><a href="Sponsors/Partners.html">Sponsors/Partners</a></button></li>
-    <li <button><a href="Get_Involved.html">Get Involved</a></button></li>
+    <li <button><a href="index" target="_blank">Home</a></button></li>
+    <li <button><a href="past_projects" target="_blank">Past Projects</a></button></li>
+    <li <button><a href="faq" target="_blank">FAQ</a></button></li>
+    <li <button><a href="about" target="_blank">About Us</a></button></li>
+    <li <button><a href="partners" target="_blank" >Sponsors/Partners</a></button></li>
+    <li <button><a href="get_involved" target="_blank">Get Involved</a></button></li>
 
          </div>
     <div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

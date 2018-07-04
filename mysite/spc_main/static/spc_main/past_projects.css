@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 60px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+
+.grid-body-item {
+  font-size: 30px;
+}
+
+.grid-body-item {
+  border: 7px solid black;
+  padding: 60px;
+}
+
+.grid-head-item {
+  font-weight: medium;
+  font-size: 60px;
+}
+
+.grid-head-item {
+  padding-bottom: 30px;
+  grid-column: 1/4;
+}
+
+/*# sourceMappingURL=Past_projects.css.map */
