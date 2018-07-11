@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% load static %}
+  <head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'spc_main/index.css' %}" />
+  </head>
+  <body>
+    <div id="loginform">
+      <h1>Log In</h1>
+      <form action="/your-name/" method="post">
+          <label for="your_name">Username: </label>
+          <input id="your_name" type="text" name="username" value="{{ username }}">
+          <br/>
+          <label for="your_name">Password: </label>
+          <input id="your_name" type="text" name="password" value="{{ password }}">
+          <br/>
+          <input type="submit" value="Log In">
+      </form>
+    </div>
+  </body>
+  <script>
+  </script>
+</html>

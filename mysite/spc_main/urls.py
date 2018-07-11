@@ -11,4 +11,5 @@ urlpatterns = [
     path('partners/', views.partners, name='partners'),
     path('teams/', views.teams, name='teams'),
     path('users/', views.users, name='users'),
+    path('login/', views.login, name='login'),
 ]

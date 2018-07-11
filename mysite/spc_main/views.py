@@ -31,3 +31,7 @@ def teams(request):
 
 def users(request):
     return HttpResponse("Users")
+
+def login(request):
+    context = {}
+    return render(request, 'spc_main/login.html', context)
