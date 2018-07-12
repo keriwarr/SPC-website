@@ -1,0 +1,49 @@
+@import '_constants';
+
+body {
+  font-family: $primary-font;
+  margin: $body-margins;
+  text-align: center;
+}
+
+nav {
+  float: center;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      position: relative;
+      a {
+        display: block;
+        padding: 70 px;
+        line-height: $nav-height;
+        background: $nav-background;
+        color: $nav-font-color;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+          background: $link-hover-color;
+          color: $nav-font-color;
+        }
+        &:not(:only-child):after {
+        padding: 5px;
+        //content: '#9662';
+        } 
+      } // Dropdown list
+      ul li {
+        min-width: px;
+        a {
+          padding: 20px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.rollovericons a {
+  margin: 30px;
+}

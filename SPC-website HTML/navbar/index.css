@@ -1,0 +1,37 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 60px;
+  text-align: center; }
+
+nav {
+  float: center; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      float: left;
+      position: relative; }
+      nav ul li a {
+        display: block;
+        padding: 70 px;
+        line-height: 30px;
+        background: #002733;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center; }
+        nav ul li a:hover {
+          background: #498fd0;
+          color: #ffffff; }
+        nav ul li a:not(:only-child):after {
+          padding: 5px; }
+      nav ul li ul li {
+        min-width: px; }
+        nav ul li ul li a {
+          padding: 20px;
+          line-height: 20px; }
+
+.rollovericons a {
+  margin: 30px; }
+
+/*# sourceMappingURL=index.css.map */
