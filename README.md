@@ -2,9 +2,11 @@
 
 **Setup:**
 
-Create Python virtual environment in SPC-website directory
+Install virtualenv for Python - pip install virtualenv
 
-Install Django in virtualenv with pip
+Create Python virtual environment spc-website in SPC-website directory - virtualenv spc-website
+
+Install Django in virtualenv with pip - pip install Django
 
 **Useful Terminal Commands (if python doesn't work try using python3):**
 
