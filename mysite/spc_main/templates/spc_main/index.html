@@ -4,18 +4,21 @@
   <head>
     <meta charset="UTF-8">
     <title>SPC Website</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'spc_main/index.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'spc_main/stylesheets/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'spc_main/stylesheets/index.css' %}" />
   </head>
   <body>
-    <div id='navlogo'>
-      <img src="{% static "spc_main/icon.jpg" %}" alt="{% static "spc_main/no_image.svg" %}" width="500px" usemap="#SPCmap"/>
-      <map name="#SPCmap">
-        <area shape="circle" coords="395,134,24" href="about">
-        <area shape="circle" coords="426,188,24" href="faq">
-        <area shape="circle" coords="438,250,24" href="past_projects">
-        <area shape="circle" coords="426,315,24" href="get_involved">
-        <area shape="circle" coords="395,371,24" href="partners">
-      </map>
+    <div id='navlogo-container'>
+      <div id='navlogo'>
+        <img src="{% static "spc_main/assets/logo.png" %}" alt="{% static 'spc_main/assets/no_image.svg' %}" width="500px" usemap="#SPCmap"/>
+        <map name="#SPCmap">
+          <area shape="circle" coords="395,134,24" href="about">
+          <area shape="circle" coords="426,188,24" href="faq">
+          <area shape="circle" coords="438,250,24" href="past_projects">
+          <area shape="circle" coords="426,315,24" href="get_involved">
+          <area shape="circle" coords="395,371,24" href="partners">
+        </map>
+      </div>
     </div>
 
     <!-- <h1> UW Side Project Club </h1>
@@ -37,7 +40,7 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div> -->
-    
+
   </body>
   <script>
     console.log("Hello World!");
