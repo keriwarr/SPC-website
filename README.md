@@ -39,3 +39,13 @@ python/python3 manage.py shell - Starts Python shell
 **Admin stuff:**
 
 python3 manage.py createsuperuser - Creates admin user
+
+**File Structure:**
+
+HTML files go in /mysite/spc_main/templates/spc_main
+
+CSS files go in /mysite/spc_main/static/spc_main/stylesheets
+
+JS files go in /mysite/spc_main/static/spc_main/scripts
+
+All other assets go in /mysite/spc_main/static/spc_main/assets
