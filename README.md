@@ -8,6 +8,8 @@ Create Python virtual environment spc-website in SPC-website directory - virtual
 
 Install Django in virtualenv with pip - pip install Django
 
+Run migrations before running servers for the first time
+
 **Useful Terminal Commands (if python doesn't work try using python3):**
 
 python/python3 - Run Python
