@@ -32,9 +32,9 @@ python/python3 manage.py shell - Starts Python shell
 
 1. Edit in models.py
 
-2. python3 manage.py makemigrations [name of app] - Creates DB migrations
+2. python/python3 manage.py makemigrations [name of app] - Creates DB migrations
 
-3. python3 manage.py migrate - Runs DB migrations
+3. python/python3 manage.py migrate - Runs DB migrations
 
 **Admin stuff:**
 
